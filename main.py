@@ -1,13 +1,9 @@
 import random as r
 import customtkinter as ctk
 from PIL import Image
-import threading as t
-
-comando: str = "4d6"
 
 
 def roll():
-    global comando
     comando = textbox.get("0.0", "end")
     tiro: int = 0
     a: str = ""
