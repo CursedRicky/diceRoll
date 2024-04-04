@@ -32,6 +32,7 @@ def roll():
 root = ctk.CTk()
 root.geometry("400x500")
 root.title("Roll")
+root.resizable(False, False)
 
 titolo = ctk.CTkLabel(master=root, text="Tira dadi", font=("Calibri", 40))
 titolo.pack(pady=5)
