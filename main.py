@@ -6,8 +6,8 @@ from PIL import Image
 def roll() -> None:
     comando = textbox.get("0.0", "end")
     tiro: int = 0
-    a: str = ""
-    b: str = ""
+    a: str = "" #Tipo Dadi da tirare
+    b: str = "" #Numero Dadi da tirare
     ctrl: bool = False
 
     for let in comando:
