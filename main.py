@@ -31,7 +31,7 @@ def rollSV() -> None:
 
 
 root = ctk.CTk()
-root.geometry("610x400")
+root.geometry("615x400")
 root.title("Roll")
 root.resizable(False, False)
 
