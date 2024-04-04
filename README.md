@@ -1,3 +1,3 @@
 # DiceRoll
 
-Tira i dadi per i danni comodamente
+Tira i dadi per i danni e tiri con svantaggio e vantaggio comodamente
